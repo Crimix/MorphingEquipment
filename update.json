@@ -1,0 +1,10 @@
+{
+  "homepage": "https://www.curseforge.com/minecraft/mc-mods/morphing-equipment",
+  "1.19.2": {
+    "0.1.1": "https://github.com/Crimix/MorphingEquipment/blob/1.19/CHANGELOG.md"
+  },
+  "promos": {
+    "1.19.2-latest": "0.1.0",
+    "1.19.2-recommended": "0.1.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "minecraft:iron_axe"
+    },
+    "d": {
+      "tag": "forge:gems/diamond"
+    },
+    "h": {
+      "item": "minecraft:iron_shovel"
+    },
+    "p": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "r": {
+      "tag": "forge:dusts/redstone"
+    },
+    "s": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "pattern": [
+    "rsr",
+    "adp",
+    "rhr"
+  ],
+  "result": {
+    "item": "morphingequipment:morphing_tool"
+  }
+}

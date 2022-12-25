@@ -1,0 +1,10 @@
+{
+  "item.morphingequipment.morphing_tool": "Morphing Tool",
+  "itemGroup.morphingequipment": "Morphing Equipment",
+  "morphingequipment.key.category": "Morphing Equipment",
+  "morphingequipment.key.switch": "Morph tool to match requirements",
+  "morphingequipment.tooltip.item.drop": "Ctrl + %s to morph tool to original form",
+  "morphingequipment.tooltip.item.info": "§7Can morph into other contained tools§r",
+  "morphingequipment.tooltip.item.open": "§7Sneak + Right click to open tool§r",
+  "morphingequipment.tooltip.item.switch": "Use %s to morph tool"
+}
