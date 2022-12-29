@@ -10,7 +10,7 @@ import net.minecraftforge.common.ToolAction;
 public class ModUtil {
 
     public static boolean isMorphingOrMorphedTool(ItemStack stack) {
-        return stack.getOrCreateTag().contains(Tags.TAG_EQUIPMENT_CONTAINER);
+        return stack.copy().getOrCreateTag().contains(Tags.TAG_EQUIPMENT_CONTAINER);
     }
 
     public static boolean isMorphedTool(ItemStack stack) {
