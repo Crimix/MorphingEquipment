@@ -27,6 +27,9 @@ public class GeneratorLanguageEnglish extends BaseLanguageProvider {
 
         addPrefixed(KEY_CATEGORY, "Morphing Equipment");
         addPrefixed(KEY_SWITCH, "Morph tool to match requirements");
+
+        addPrefixed(PLUGIN_SWITCH, "morph tool");
+        addPrefixed(PLUGIN_MORP_BACK, " morph tool to original form");
     }
 
     @Override

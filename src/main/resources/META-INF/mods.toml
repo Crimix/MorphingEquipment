@@ -26,4 +26,4 @@ description='''A tool that can morph into contained equipment'''
     mandatory=true
     versionRange="${minecraft_version_range}"
     ordering="NONE"
-    side="SERVER"
+    side="BOTH"
