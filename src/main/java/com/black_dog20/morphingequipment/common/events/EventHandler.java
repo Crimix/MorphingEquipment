@@ -16,7 +16,7 @@ public class EventHandler {
 
     @SubscribeEvent
     public static void onItemBroken(PlayerDestroyItemEvent event) {
-        if (event.getHand() != null && ModUtil.isMorphedTool(event.getOriginal()) && !event.getEntity().level.isClientSide) {
+        if (event.getHand() != null && ModUtil.isMorphedTool(event.getOriginal()) && !event.getEntity().level().isClientSide) {
             ModUtil.switchBecauseBreakingItem(event.getEntity(), event.getHand(), event.getOriginal());
         }
     }

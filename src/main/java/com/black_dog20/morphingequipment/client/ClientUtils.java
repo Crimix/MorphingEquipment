@@ -24,7 +24,7 @@ public class ClientUtils {
         Player player = Minecraft.getInstance().player;
         HitResult result = Minecraft.getInstance().hitResult;
         if (result != null && result.getType() == HitResult.Type.BLOCK) {
-            return getActionFromBlockState(player.level.getBlockState(((BlockHitResult)result).getBlockPos()));
+            return getActionFromBlockState(player.level().getBlockState(((BlockHitResult)result).getBlockPos()));
         } else {
             return ToolActions.SWORD_DIG;
         }

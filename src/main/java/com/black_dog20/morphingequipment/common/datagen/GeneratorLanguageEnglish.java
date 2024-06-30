@@ -11,12 +11,12 @@ import static com.black_dog20.morphingequipment.common.utils.Translations.*;
 public class GeneratorLanguageEnglish extends BaseLanguageProvider {
 
     public GeneratorLanguageEnglish(DataGenerator gen) {
-        super(gen, MorphingEquipment.MOD_ID, "en_us");
+        super(gen.getPackOutput(), MorphingEquipment.MOD_ID, "en_us");
     }
 
     @Override
     protected void addTranslations() {
-        add("itemGroup.morphingequipment", "Morphing Equipment");
+        addPrefixed(ITEM_CATEGORY.getKey(), "Morphing Equipment");
 
         addPrefixed(TOOLIP_INFO, "Can morph into other contained tools", ChatFormatting.GRAY);
         addPrefixed(TOOLTIP_SWITCH, "Use %s to morph tool");

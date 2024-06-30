@@ -5,6 +5,7 @@ import com.black_dog20.morphingequipment.MorphingEquipment;
 
 public enum Translations implements ITranslation {
     TOOLIP_INFO("tooltip.item.info"),
+    ITEM_CATEGORY("itemGroup.morphingequipment"),
     TOOLTIP_SWITCH("tooltip.item.switch"),
     TOOLTIP_OPEN_CONTAINER("tooltip.item.open"),
     TOOLTIP_MORP_BACK("tooltip.item.morph.back"),

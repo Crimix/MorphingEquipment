@@ -1,6 +1,6 @@
 {
   "item.morphingequipment.morphing_tool": "Morphing Tool",
-  "itemGroup.morphingequipment": "Morphing Equipment",
+  "morphingequipment.itemGroup.morphingequipment": "Morphing Equipment",
   "morphingequipment.key.category": "Morphing Equipment",
   "morphingequipment.key.switch": "Morph tool to match requirements",
   "morphingequipment.tooltip..plugin.item.morph.back": " morph tool to original form",
