@@ -167,3 +167,27 @@ shadowJar {
     configurations = [project.configurations.shadowCompileOnly]
     relocate 'com.black_dog20.bml', 'com.black_dog20.morphingequipment.repack.bml'
 }
+
+curseforge {
+    apiKey = curse_apiKey
+    project {
+        id = '783154'
+        changelogType = 'markdown'
+        changelog = "As always find the changelog here [CHANGELOG](${changelog_url})"
+        releaseType = 'release'
+        addGameVersion 'Forge'
+        addGameVersion 'Java 17'
+        addGameVersion '1.20.1'
+    }
+}
+
+modrinth {
+    token = modrinth_token
+    projectId = "8c8A02Sz"
+    uploadFile = jar
+    versionNumber = "${mc_version}-${version}"
+    changelog = "As always find the changelog here [CHANGELOG](${changelog_url})"
+    versionType = "release"
+    loaders = ["forge"]
+    gameVersions = ["1.20.1"]
+}
